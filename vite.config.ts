@@ -62,6 +62,7 @@ function figmaAssetResolver() {
         '@': path.resolve(__dirname, './src'),
       },
     },
+    base: '/Case-Management-System/',
     build: {
       target: 'esnext',
       outDir: 'build',
